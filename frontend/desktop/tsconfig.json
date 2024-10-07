@@ -1,0 +1,40 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": [
+        "src/renderer/src/*"
+      ],
+      "@view/*": [
+        "src/renderer/src/view/*"
+      ],
+      "@desktop/*": [
+        "src/renderer/src/view/desktop/*"
+      ],
+      "@mobile/*": [
+        "src/renderer/src/view/mobile/*"
+      ],
+      "@hooks/*": [
+        "src/renderer/src/hooks/*"
+      ],
+      "@store/*": [
+        "src/renderer/src/store/*"
+      ],
+      "@components/*": [
+        "src/renderer/src/components/*"
+      ],
+      "@assets/*": [
+        "src/renderer/src/assets/*"
+      ],
+    },
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.web.json"
+    }
+  ]
+}
