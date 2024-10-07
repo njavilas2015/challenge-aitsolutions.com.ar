@@ -46,9 +46,15 @@ Si ingresamos a ```http://<server>:8080/api/article/``` podremos ver e interactu
 ## App Multiplataforma
 El mismo código esta adaptado para diferentes dispositivos, en la carpeta ```frontend/apps``` podremos visualizar que disponemos 
 
--[x] App para Android
--[x] App para Windows
--[x] App GNU/linux .deb .snap .AppImage
+[App para Android](https://github.com/njavilas2015/challenge-aitsolutions.com.ar/releases/download/pre-release/app-debug.apk)
+
+[App para Windows](https://github.com/njavilas2015/challenge-aitsolutions.com.ar/releases/download/pre-release/desktop-1.0.0-setup.exe)
+
+[App para GNU/linux deb](https://github.com/njavilas2015/challenge-aitsolutions.com.ar/releases/download/pre-release/desktop_1.0.0_amd64.deb)
+
+[App para GNU/linux snap](https://github.com/njavilas2015/challenge-aitsolutions.com.ar/releases/download/pre-release/desktop_1.0.0_amd64.snap)
+
+[App para GNU/linux AppImage](https://github.com/njavilas2015/challenge-aitsolutions.com.ar/releases/download/pre-release/desktop-1.0.0.AppImage)
 
 
 Si ingresamos a ```http://<server>:8080``` podremos ingresar a nuestra interface generada con react 
